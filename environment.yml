@@ -1,0 +1,14 @@
+name: face-id
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - tk
+  - numpy>=1.26
+  - pillow>=10
+  - pip
+  - pip:
+      - opencv-contrib-python-headless>=4.9,<5
+      - pytest>=8
+      - pytest-cov>=5
+      - ruff>=0.5
